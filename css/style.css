@@ -13,34 +13,30 @@
 /* FINE GENERALE */
 
 .container{
-    background-color: grey;
     width: 80%;
     margin: auto;
 }
 
 header{
-    background-color: hotpink;
+    background-color: sandybrown;
     height: 100px;
     margin: 20px 0;
 }
 
 
 main{
-    background-color: indigo;
-    height: 500px;
     margin-bottom: 10px;
 }
 
 /* contenuto main */
 .slider{
     background-color: lightgreen;
-    height: 40%;
+    height: 200px;
     margin-bottom: 20px;
 }
 
 .contenuto{
     background-color: blue;
-    height: calc(60% - 20px);
 }
 
 .contenuto .top{
@@ -56,10 +52,11 @@ main{
 }
 
 .bottom .side{
-    width: calc(100% / 4);
+    width: calc((100% / 4) - 10px);
 }
 
 .bottom .center{
+    margin: 0 10px;
     width: calc((100% / 4) * 2);
 }
 /* FINE parte FLOAT del contenuto */
