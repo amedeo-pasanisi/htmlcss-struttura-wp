@@ -1,8 +1,16 @@
+/* GENERALE */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* FINE GENERALE */
 
 .container{
     background-color: grey;
@@ -32,6 +40,22 @@ main{
 .contenuto{
     background-color: blue;
     height: calc(60% - 20px);
+}
+
+.contenuto .top{
+    background-color: lightskyblue;
+    height: 20%;
+    margin-bottom: 10px;
+}
+
+.contenuto .bottom{
+    height: calc(80% - 10px);
+}
+
+.bottom .side{
+    background-color: lightskyblue;
+    width: calc(100% / 4);
+    height: 100%;
 }
 
 footer{
