@@ -10,18 +10,28 @@
     margin: auto;
 }
 
-header,main{
-    margin: 20px 0;
-}
-
 header{
     background-color: hotpink;
     height: 100px;
+    margin: 20px 0;
 }
 
 main{
     background-color: indigo;
     height: 500px;
+    margin-bottom: 10px;
+}
+
+/* contenuto main */
+.slider{
+    background-color: lightgreen;
+    height: 40%;
+    margin-bottom: 20px;
+}
+
+.contenuto{
+    background-color: blue;
+    height: calc(60% - 20px);
 }
 
 footer{
