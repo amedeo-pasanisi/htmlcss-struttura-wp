@@ -37,6 +37,7 @@ main{
 
 .contenuto{
     background-color: blue;
+    padding-bottom: 10px;
 }
 
 .contenuto .top{
