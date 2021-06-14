@@ -24,6 +24,7 @@ header{
     margin: 20px 0;
 }
 
+
 main{
     background-color: indigo;
     height: 500px;
@@ -48,15 +49,21 @@ main{
     margin-bottom: 10px;
 }
 
-.contenuto .bottom{
-    height: calc(80% - 10px);
+/* parte FLOAT del contenuto */
+.bottom .side,.center{
+    background-color: lightskyblue;
+    float: left;
 }
 
 .bottom .side{
-    background-color: lightskyblue;
     width: calc(100% / 4);
-    height: 100%;
 }
+
+.bottom .center{
+    width: calc((100% / 4) * 2);
+}
+/* FINE parte FLOAT del contenuto */
+
 
 footer{
     background-color: lightcoral;
